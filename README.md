@@ -1,2 +1,3 @@
 # portafolio-magallon
-Portafolio profesional de Darsyn Magallón: experiencia en logística, inventarios, soporte TI y redes.
+Sitio web personal con mi experiencia, formación y proyectos profesionales.
+Publicado con GitHub Pages.
