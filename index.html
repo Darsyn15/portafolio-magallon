@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darsyn Magallón | CV Profesional</title>
+    <meta name="description" content="Currículum profesional de Darsyn Magallón: experiencia en logística, inventarios, soporte TI y redes en Coclé, Panamá.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#101923',
+                            card: '#1B2A3B',
+                            border: '#8FA9C6',
+                            cyan: '#8FB4E0',
+                            lime: '#D8E5F3',
+                            accent: '#F1F5F9'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        mono: ['Fira Code', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-brand-cyan selection:text-black">
+
+    <!-- Encabezado y Navegación -->
+    <header class="sticky top-0 z-40 bg-brand-dark/90 backdrop-blur border-b border-brand-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+            <img
+                src="./IMG/Darsyn.jpg"
+                alt="Retrato de Darsyn Magallón"
+                class="profile-photo"
+                width="48"
+                height="48"
+            >
+            <div class="flex flex-col">
+                    <span class="font-bold text-base tracking-wide text-white code-font">Darsyn Magallón</span>
+                    <span class="text-xs text-brand-cyan">Operaciones, Soporte IT & Redes</span>
+                </div>
+            </div>
+            
+            <!-- Navegación Desktop -->
+            <nav class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#inicio" class="text-gray-300 hover:text-brand-cyan transition-colors">Inicio</a>
+                <a href="./licenciatura.html" class="degree-nav-cta">Licenciatura</a>
+                <a href="#formacion" class="text-gray-300 hover:text-brand-cyan transition-colors">Formación</a>
+                <a href="#contacto" class="text-gray-300 hover:text-brand-cyan transition-colors">Contacto</a>
+            </nav>
+
+            <!-- Botón Menú Móvil -->
+            <button id="mobile-menu-btn" type="button" aria-label="Abrir menú de navegación" aria-controls="mobile-menu" aria-expanded="false" class="md:hidden text-gray-400 hover:text-white focus:outline-none">
+                <i class="fas fa-bars text-xl" aria-hidden="true"></i>
+            </button>
+        </div>
+
+        <!-- Menú Desplegable Móvil -->
+        <div id="mobile-menu" class="hidden md:hidden bg-brand-card border-b border-brand-border px-4 pt-2 pb-4 space-y-2">
+            <a href="#inicio" class="block text-gray-300 hover:text-brand-cyan py-1">Inicio</a>
+            <a href="./licenciatura.html" class="degree-nav-cta">Licenciatura</a>
+            <a href="#formacion" class="block text-gray-300 hover:text-brand-cyan py-1">Formación</a>
+            <a href="#contacto" class="block text-gray-300 hover:text-brand-cyan py-1">Contacto</a>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-20">
+
+        <!-- Sección de Presentación / Perfil Profesional -->
+        <section id="inicio" class="pt-6 sm:pt-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex flex-wrap items-center gap-2">
+                        <span class="bg-brand-card border border-brand-lime/40 text-brand-lime px-3 py-1 rounded-full text-xs font-semibold code-font flex items-center gap-1.5">
+                            <i class="fas fa-circle text-[8px] animate-ping" aria-hidden="true"></i>
+                            Disponibilidad Inmediata
+                        </span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
+                        Darsyn Magallón
+                    </h1>
+                    <p class="text-lg sm:text-xl font-medium text-brand-cyan">
+                        Logística, Control de Inventarios, Soporte IT & Redes
+                    </p>
+                    
+                    <p class="text-gray-300 text-base leading-relaxed">
+                        Colaborador operativo y técnico con experiencia práctica en bodega, control de inventarios, logística y apoyo en punto de venta. Destacado por la precisión en el registro de datos, la organización del almacén y la capacidad de trabajar en entornos de alta demanda. Formación complementaria sólida en la ruta <strong class="text-white">IT Support Specialist de Cisco Networking Academy</strong>, especialización en redes <strong class="text-white">(Cisco CCNA)</strong> y capacitación en el programa <strong class="text-white">Talent Up Panamá (Servicios Globales / BPO / KPO)</strong>.
+                    </p>
+
+                    <div class="flex items-center space-x-2 text-sm text-gray-400">
+                        <i class="fas fa-map-marker-alt text-brand-cyan"></i>
+                        <span>Coclé, Panamá</span>
+                    </div>
+
+                    <div class="flex flex-wrap gap-4 pt-2">
+                        <a href="#contacto" class="bg-brand-cyan hover:bg-cyan-600 text-black font-semibold px-6 py-3 rounded-lg transition-all glow-cyan flex items-center space-x-2">
+                            <i class="fas fa-envelope"></i>
+                            <span>Contactar</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tarjeta Terminal de Resumen de Perfil -->
+                <div class="lg:col-span-5">
+                    <div class="bg-brand-card border border-brand-border rounded-xl overflow-hidden shadow-2xl code-font text-xs sm:text-sm">
+                        <div class="bg-gray-900 px-4 py-2 border-b border-brand-border flex items-center justify-between">
+                            <div class="flex space-x-2">
+                                <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                                <div class="w-3 h-3 rounded-full bg-yellow-500"></div>
+                                <div class="w-3 h-3 rounded-full bg-green-500"></div>
+                            </div>
+                            <span class="text-gray-500 text-xs">darsyn@candidate-node:~</span>
+                        </div>
+                        <div class="p-4 space-y-3 text-gray-300">
+                            <p><span class="text-brand-lime">user@system</span>:<span class="text-brand-cyan">~</span>$ cat perfil_resumen.txt</p>
+                            <div class="pl-3 border-l-2 border-brand-cyan space-y-1 text-gray-300">
+                                <p><strong class="text-white">Ubicación:</strong> Coclé, Panamá</p>
+                                <p><strong class="text-white">Experiencia Operativa:</strong> Cervecería Nacional, Farmacias Arrocha</p>
+                                <p><strong class="text-white">Ruta TI:</strong> Cisco IT Support Specialist & CCNA</p>
+                                <p><strong class="text-white">Competencias Clave:</strong> Auditoría de Stock, Subnetting IPv4, Soporte Técnico</p>
+                            </div>
+                            <p><span class="text-brand-lime">user@system</span>:<span class="text-brand-cyan">~</span>$ status --readiness</p>
+                            <p class="text-brand-lime font-bold">>>> 100% DISPONIBILIDAD OPERATIVA Y TÉCNICA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Experiencia Laboral -->
+        <section id="experiencia" class="space-y-8">
+            <div class="border-l-4 border-brand-cyan pl-4">
+                <h2 class="text-2xl sm:text-3xl font-bold text-white">Experiencia Laboral</h2>
+                <p class="text-gray-400 text-sm sm:text-base">Trayectoria práctica en operaciones de alta demanda, logística e inventarios.</p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Rol 1 -->
+                <div class="bg-brand-card border border-brand-border hover:border-brand-cyan transition-all rounded-xl p-6 relative">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Auxiliar de Logística y Distribución</h3>
+                            <span class="text-brand-cyan font-medium text-sm">Cervecería Nacional</span>
+                        </div>
+                        <span class="bg-brand-dark text-gray-300 text-xs px-3 py-1 rounded-full border border-brand-border code-font w-fit">
+                            2025 - 2026
+                        </span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-gray-300 list-disc list-inside">
+                        <li>Coordinación de flujos operativos de alta demanda, gestionando de forma eficiente la entrada y salida de mercancía.</li>
+                        <li>Realización de controles de calidad e inventario físico, asegurando la integridad de la información y del producto.</li>
+                        <li>Colaboración activa con el equipo para mantener la continuidad de las operaciones y el cumplimiento de los tiempos establecidos.</li>
+                    </ul>
+                    <button
+                        type="button"
+                        class="experience-photo"
+                        data-photo="./IMG/Cerveceria Nacional.jpg"
+                        aria-label="Ampliar foto de la experiencia en Cervecería Nacional"
+                    >
+                        <img src="./IMG/Cerveceria Nacional.jpg" alt="Trabajo de organización de productos en Cervecería Nacional" loading="lazy">
+                        <span>Ver foto</span>
+                    </button>
+                </div>
+
+                <!-- Rol 2 -->
+                <div class="bg-brand-card border border-brand-border hover:border-brand-lime transition-all rounded-xl p-6 relative">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Auxiliar de Inventarios y Almacén</h3>
+                            <span class="text-brand-lime font-medium text-sm">Farmacias Arrocha</span>
+                        </div>
+                        <span class="bg-brand-dark text-gray-300 text-xs px-3 py-1 rounded-full border border-brand-border code-font w-fit">
+                            Octubre - Diciembre 2024
+                        </span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-gray-300 list-disc list-inside">
+                        <li>Registro y gestión de ingresos, recepción y movimientos de stock con precisión, contribuyendo al control estricto de inventarios.</li>
+                        <li>Mantenimiento del almacén organizado y realización de auditorías periódicas de productos, facilitando la localización y despacho oportuno.</li>
+                        <li>Apoyo en la coordinación de tareas operativas y en el cumplimiento de los procedimientos internos del área.</li>
+                    </ul>
+                    <button
+                        type="button"
+                        class="experience-photo"
+                        data-photo="./IMG/Farmacias Arrocha.jpg"
+                        aria-label="Ampliar foto de la experiencia en Farmacias Arrocha"
+                    >
+                        <img src="./IMG/Farmacias Arrocha.jpg" alt="Equipo de trabajo de Farmacias Arrocha" loading="lazy">
+                        <span>Ver foto</span>
+                    </button>
+                </div>
+
+                <!-- Rol 3 -->
+                <div class="bg-brand-card border border-brand-border hover:border-blue-400 transition-all rounded-xl p-6 relative">
+                    <div class="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-3">
+                        <div>
+                            <h3 class="text-xl font-bold text-white">Mercaderista / Gestor de Punto de Venta</h3>
+                            <span class="text-blue-400 font-medium text-sm">Consumo Masivo</span>
+                        </div>
+                        <span class="bg-brand-dark text-gray-300 text-xs px-3 py-1 rounded-full border border-brand-border code-font w-fit">
+                            Marzo - Abril 2025
+                        </span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-gray-300 list-disc list-inside">
+                        <li>Recorrido de puntos de venta realizando levantamiento de datos e indicadores operativos para la gestión del área.</li>
+                        <li>Organización y presentación estratégica de productos, contribuyendo a la imagen y eficiencia comercial en el punto de venta.</li>
+                        <li>Uso de herramientas digitales para mantener la precisión y oportunidad de la información recolectada.</li>
+                    </ul>
+                    <button
+                        type="button"
+                        class="experience-photo"
+                        data-photo="./IMG/Consumo Masivo.jpg"
+                        aria-label="Ampliar foto de la experiencia en Consumo Masivo"
+                    >
+                        <img src="./IMG/Consumo Masivo.jpg" alt="Trabajo en un punto de venta de consumo masivo" loading="lazy">
+                        <span>Ver foto</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Formación y Certificaciones -->
+        <section id="formacion" class="space-y-8">
+            <div class="border-l-4 border-brand-lime pl-4">
+                <h2 class="text-2xl sm:text-3xl font-bold text-white">Formación & Certificaciones</h2>
+                <p class="text-gray-400 text-sm sm:text-base">Preparación académica, técnica y programas de especialización.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Educación Académica -->
+                <div class="bg-brand-card border border-brand-border rounded-xl p-6 space-y-4">
+                    <div class="flex items-center space-x-3 text-brand-lime">
+                        <i class="fas fa-graduation-cap text-2xl"></i>
+                        <h3 class="text-lg font-bold text-white">Educación Académica</h3>
+                    </div>
+                    <div class="border-l-2 border-brand-border pl-4 space-y-2">
+                        <h4 class="text-white font-semibold">Licenciatura en Educación Física</h4>
+                        <p class="text-xs text-gray-400">CRU Coclé — Culminado</p>
+                        <p class="text-sm text-gray-300">Desarrollo de disciplina, pedagogía, liderazgo, trabajo bajo presión y dinámica de grupos.</p>
+                        <a class="degree-page-link" href="./licenciatura.html">Ver licenciatura <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="border-l-2 border-brand-border pl-4 space-y-1">
+                        <h4 class="text-white font-semibold">Bachiller Completo</h4>
+                    </div>
+                </div>
+
+                <!-- Formación Técnica y Especializada -->
+                <div class="bg-brand-card border border-brand-border rounded-xl p-6 space-y-4">
+                    <div class="flex items-center space-x-3 text-brand-cyan">
+                        <i class="fas fa-certificate text-2xl"></i>
+                        <h3 class="text-lg font-bold text-white">Certificaciones & Capacitación TI</h3>
+                    </div>
+                    <div class="space-y-3 text-sm">
+                        <div>
+                            <span class="text-white font-semibold block">IT Support Specialist Career Path</span>
+                            <span class="text-xs text-brand-cyan code-font">Cisco Networking Academy</span>
+                            <p class="text-xs text-gray-400 mt-0.5">Security and Connectivity Support, IT Customer Support, Operating Systems & Hardware Support.</p>
+                        </div>
+                        <div>
+                            <span class="text-white font-semibold block">Especialización Técnica en Redes (Cisco CCNA)</span>
+                            <span class="text-xs text-yellow-400 code-font">En curso</span>
+                        </div>
+                        <div>
+                            <span class="text-white font-semibold block">Programa Talent Up Panamá - Ruta Cero</span>
+                            <span class="text-xs text-brand-lime code-font">Servicios Globales / BPO / KPO</span>
+                        </div>
+                        <div>
+                            <span class="text-white font-semibold block">Inglés Técnico</span>
+                            <span class="text-xs text-gray-300 code-font">Nivel B1 (Certificado Cisco)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Competencias y Habilidades (Dual) -->
+        <section id="habilidades" class="space-y-8">
+            <div class="border-l-4 border-brand-cyan pl-4">
+                <h2 class="text-2xl sm:text-3xl font-bold text-white">Competencias & Habilidades (Perfil Dual)</h2>
+                <p class="text-gray-400 text-sm sm:text-base">Combinación equilibrada de gestión de operaciones físicas y habilidades tecnológicas de TI.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Operaciones & Logística -->
+                <div class="bg-brand-card border border-brand-border hover:border-brand-lime transition-all rounded-xl p-6 space-y-4">
+                    <div class="flex items-center space-x-3 text-brand-lime">
+                        <i class="fas fa-boxes-stacked text-2xl"></i>
+                        <h3 class="text-xl font-bold text-white">Operaciones & Logística</h3>
+                    </div>
+                    <ul class="space-y-2.5 text-sm text-gray-300">
+                        <li class="flex items-start space-x-2">
+                            <i class="fas fa-check text-brand-lime mt-1 text-xs"></i>
+                            <span><strong>Bodega e Inventarios:</strong> Recepción, registro y control de stock, organización de almacén y auditoría física.</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <i class="fas fa-check text-brand-lime mt-1 text-xs"></i>
+                            <span><strong>Gestión de Distribución:</strong> Coordinación de flujos de entrada/salida y cumplimiento de tiempos en entornos de alta demanda.</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <i class="fas fa-check text-brand-lime mt-1 text-xs"></i>
+                            <span><strong>Atención y Punto de Venta:</strong> Levantamiento de datos e indicadores, atención al cliente y trabajo en equipo.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Tecnología & Redes -->
+                <div class="bg-brand-card border border-brand-border hover:border-brand-cyan transition-all rounded-xl p-6 space-y-4">
+                    <div class="flex items-center space-x-3 text-brand-cyan">
+                        <i class="fas fa-network-wired text-2xl"></i>
+                        <h3 class="text-xl font-bold text-white">Tecnología & Redes</h3>
+                    </div>
+                    <ul class="space-y-2.5 text-sm text-gray-300">
+                        <li class="flex items-start space-x-2">
+                            <i class="fas fa-check text-brand-cyan mt-1 text-xs"></i>
+                            <span><strong>Redes Cisco & Conmutación:</strong> Subnetting (CIDR/VLSM), VLANs, OSPF, ACLs y Packet Tracer.</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <i class="fas fa-check text-brand-cyan mt-1 text-xs"></i>
+                            <span><strong>Sistemas & Servidores:</strong> Linux (Debian),Windows, DHCP y DNS.</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <i class="fas fa-check text-brand-cyan mt-1 text-xs"></i>
+                            <span><strong>Herramientas Digitales:</strong> Microsoft Office (Excel, Word, PowerPoint), Google Workspace y Git.</span>
+                        </li>
+                        <li class="flex items-start space-x-2">
+                            <i class="fas fa-check text-brand-cyan mt-1 text-xs"></i>
+                            <span><strong>Despliegue Web & Cloud:</strong> Maquetación con HTML5, CSS3, Tailwind (IA) y hosting estático en Cloudflare Pages.</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Información de Contacto -->
+        <section id="contacto" class="space-y-6">
+            <div class="border-l-4 border-brand-cyan pl-4">
+                <h2 class="text-2xl sm:text-3xl font-bold text-white">Información de Contacto</h2>
+                <p class="text-gray-400 text-sm sm:text-base">Canales directos para consultas laborales y oportunidades de contratación.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-brand-card border border-brand-border rounded-xl p-6 space-y-5">
+                    <h3 class="text-lg font-semibold text-white">Datos Directos</h3>
+                    <div class="space-y-4 text-sm text-gray-300">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-user text-brand-cyan text-lg w-6"></i>
+                            <span>Darsyn Magallón</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-envelope text-brand-cyan text-lg w-6"></i>
+                            <a href="mailto:darsyn.magallon@gmail.com" class="hover:underline text-brand-cyan">darsyn.magallon@gmail.com</a>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-map-marker-alt text-brand-cyan text-lg w-6"></i>
+                            <span>Coclé, Panamá</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-brand-card border border-brand-border rounded-xl p-6 space-y-4">
+                    <h3 class="text-lg font-semibold text-white">Enviar Mensaje Directo</h3>
+                    <p class="text-xs text-gray-400">Al enviar, se abrirá tu aplicación de correo con el mensaje preparado.</p>
+                    <form onsubmit="handleFormSubmit(event)" class="space-y-3">
+                        <div>
+                            <label for="contact-name" class="block text-xs font-medium text-gray-300 mb-1">Nombre o empresa</label>
+                            <input id="contact-name" name="name" type="text" required autocomplete="name" class="w-full bg-brand-dark border border-brand-border rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-brand-cyan">
+                        </div>
+                        <div>
+                            <label for="contact-email" class="block text-xs font-medium text-gray-300 mb-1">Correo electrónico</label>
+                            <input id="contact-email" name="email" type="email" required autocomplete="email" class="w-full bg-brand-dark border border-brand-border rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-brand-cyan">
+                        </div>
+                        <div>
+                            <label for="contact-message" class="block text-xs font-medium text-gray-300 mb-1">Mensaje</label>
+                            <textarea id="contact-message" name="message" rows="3" required class="w-full bg-brand-dark border border-brand-border rounded-lg px-3 py-2 text-white text-sm focus:outline-none focus:border-brand-cyan"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-brand-cyan hover:bg-cyan-600 text-black font-semibold py-2 rounded-lg transition-all text-sm">
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Pie de Página -->
+    <footer class="border-t border-brand-border py-6 bg-brand-dark">
+        <div class="max-w-7xl mx-auto px-4 text-center text-xs text-gray-500 code-font space-y-1">
+            <p>© 2026 Darsyn Magallón | Currículum Vitae</p>
+            <p class="text-gray-600">Coclé, Panamá</p>
+            <p class="footer-disclaimer">Portafolio personal con fines informativos y profesionales. Las instituciones y marcas se mencionan únicamente para describir mi formación y experiencia; su mención no implica respaldo ni afiliación.</p>
+        </div>
+    </footer>
+
+    <div id="photo-lightbox" class="photo-lightbox hidden" role="dialog" aria-modal="true" aria-label="Fotografía ampliada">
+        <button type="button" class="photo-lightbox-close" aria-label="Cerrar fotografía">&times;</button>
+        <div class="photo-lightbox-frame">
+            <img id="photo-lightbox-image" src="" alt="">
+        </div>
+    </div>
+
+    <!-- Script de Funcionalidad JavaScript -->
+    <script>
+        // Menú Móvil
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileBtn.addEventListener('click', () => {
+            const isExpanded = mobileBtn.getAttribute('aria-expanded') === 'true';
+            mobileBtn.setAttribute('aria-expanded', String(!isExpanded));
+            mobileBtn.setAttribute('aria-label', isExpanded ? 'Abrir menú de navegación' : 'Cerrar menú de navegación');
+            mobileMenu.classList.toggle('hidden', isExpanded);
+        });
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                mobileBtn.setAttribute('aria-expanded', 'false');
+                mobileBtn.setAttribute('aria-label', 'Abrir menú de navegación');
+            });
+        });
+
+        // Galería ampliable de imágenes de experiencia.
+        const photoLightbox = document.getElementById('photo-lightbox');
+        const photoLightboxImage = document.getElementById('photo-lightbox-image');
+        const photoLightboxClose = photoLightbox.querySelector('.photo-lightbox-close');
+        let photoTrigger = null;
+
+        function openPhotoLightbox(trigger) {
+            const thumbnail = trigger.querySelector('img');
+            const photoUrl = trigger.dataset.photo;
+            if (!thumbnail || !photoUrl) return;
+
+            photoTrigger = trigger;
+            photoLightboxImage.src = photoUrl;
+            photoLightboxImage.alt = thumbnail.alt;
+            photoLightbox.classList.remove('hidden');
+            document.body.classList.add('photo-lightbox-open');
+            requestAnimationFrame(() => photoLightbox.classList.add('is-open'));
+            photoLightboxClose.focus();
+        }
+
+        function closePhotoLightbox() {
+            if (photoLightbox.classList.contains('hidden')) return;
+
+            photoLightbox.classList.remove('is-open');
+            photoLightbox.classList.add('hidden');
+            photoLightboxImage.removeAttribute('src');
+            photoLightboxImage.alt = '';
+            document.body.classList.remove('photo-lightbox-open');
+            if (photoTrigger instanceof HTMLElement) photoTrigger.focus();
+            photoTrigger = null;
+        }
+
+        document.querySelectorAll('.experience-photo').forEach(button => {
+            button.addEventListener('click', () => openPhotoLightbox(button));
+        });
+        photoLightboxClose.addEventListener('click', closePhotoLightbox);
+        photoLightbox.addEventListener('click', event => {
+            if (event.target === photoLightbox) closePhotoLightbox();
+        });
+
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape' && !photoLightbox.classList.contains('hidden')) {
+                closePhotoLightbox();
+            }
+        });
+
+        // Abre el cliente de correo del visitante con los datos del formulario.
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const formData = new FormData(e.currentTarget);
+            const subject = `Contacto desde el portafolio: ${formData.get('name')}`;
+            const body = `Nombre: ${formData.get('name')}\nCorreo: ${formData.get('email')}\n\n${formData.get('message')}`;
+            window.location.href = `mailto:darsyn.magallon@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        }
+    </script>
+</body>
+</html>
